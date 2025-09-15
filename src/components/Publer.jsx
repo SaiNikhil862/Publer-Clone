@@ -1,6 +1,7 @@
 import React from 'react'
 import { acc_data } from './Acc_Data'
 import Accordian from './Accordian'
+import videoo from '../Assets/videoo.mp4'
 
 let Publer = () => {
   return (
@@ -63,8 +64,8 @@ let Publer = () => {
       <p>With a suite of powerful tools and a user-friendly interface, you will be able to craft, preview, schedule, and analyze your social media content with ease.</p>
       <button className='bg-[#00ccc5] rounded-2xl w-45 h-15 text-white hover:bg-blue-400 '>Get started for free  </button>
     </section>
-    <div className='mt-20 ml-'>
-      <video className='h-250 w-100%' src="../src/assets/Screen Recording 2025-08-22 213502.mp4" controls muted autoPlay></video>
+    <div className='mt-20 ml-[50px]'>
+      <video src={videoo} className='h-250 w-100%' controls muted autoPlay></video>
     </div>
     <section className='flex flex-col items-center mt-20 justify-center'>
       <p className='text-[#00ccc5] text-[20px]'>TESTIMONIALS</p>
@@ -180,7 +181,7 @@ let Publer = () => {
           <h1>Join Our Newsletter!</h1>
           <p className='text-[gray]'>Get the latest social media news & updates straight to your inbox</p>
           <div className='flex gap-4'>
-            <input className='w-100 h-10 border-1 border-[gray] rounded-full text-[white]' type="text" name="" id="" placeholder='     enter your email' /> <button className='bg-[#00ccc5] rounded-2xl w-40 h-10 text-white hover:bg-blue-400 '>Subscribe</button>
+            <input className='w-100 h-10 border-1 border-[gray] rounded-full text-[white]' type="text" name="" id="" placeholder='  enter your email' /> <button className='bg-[#00ccc5] rounded-2xl w-40 h-10 text-white hover:bg-blue-400 '>Subscribe</button>
           
           </div>
           <h1>Download Publer App to manage socials anywhere!</h1>
