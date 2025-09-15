@@ -1,7 +1,7 @@
 import React from 'react'
 import { acc_data } from './Acc_Data'
 import Accordian from './Accordian'
-import videoo from '../Assets/videoo.mp4'
+import videoo from '../assets/videoo.mp4'
 
 let Publer = () => {
   return (
